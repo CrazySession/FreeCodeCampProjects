@@ -31,9 +31,15 @@
 
         <div class="jumbotron" id="main">
 
-            <a href="paliChecker.html">Palindrome Checker</a>
-            <a href="index.html"><button type="button" class="btn btn-dark">Back</button></a>
-
+            <p>Add Javascript Project</p>
+            <p>
+                <input type="text" id="inputValue" placeholder="projectname">
+                <button type="button" id="addButton" onclick="addFunction(inputValue.value)">Add</button>
+            </p>
+            <ul id="overview">
+                <li class="listObject"><a href="paliChecker.html">Palindrome Checker</a></li>
+                <li class="backButton"><a href="index.html"><button type="button" class="btn btn-dark">Back</button></a></li>
+            </ul>
         </div>
 
         <footer>
@@ -41,6 +47,8 @@
         </footer>
 
     </div>
+
+    <script src="js/addFunction.js"></script>
 
     </body>
 
